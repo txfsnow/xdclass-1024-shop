@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: xdclass-coupon-service
+
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.1.101:8848
+        file-extension: yaml #文件拓展格式
+
+  profiles:
+    active: dev
