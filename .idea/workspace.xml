@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2f54b4-6d8c-42aa-9f5c-2461cba5353e" name="Default" comment="添加Sentinel数据持久化配置">
+      <change afterPath="$PROJECT_DIR$/JavaStudy/Mevan/maven课程笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaStudy/Mevan/maven课程笔记.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-coupon-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-coupon-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-product-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-user-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,44 +232,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Notification.DisplayName-DoNotAsk-Language Plugins Notifications&quot;: &quot;Recommended language plugin available&quot;,
-    &quot;Notification.DoNotAsk-Language Plugins Notifications&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/BaiduNetdiskDownload/xdclass-1024-shop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4514fefbe0aa2774866db18c47465ebf&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Language Plugins Notifications": "Recommended language plugin available",
+    "Notification.DoNotAsk-Language Plugins Notifications": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/BaiduNetdiskDownload/xdclass-1024-shop/JavaStudy/Mevan",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "spring.configuration.checksum": "473f94351d33bb8da4a3e009e5a82236",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BaiduNetdiskDownload\xdclass-1024-shop\JavaStudy\Mevan" />
+      <recent name="$PROJECT_DIR$/xdclass-user-service" />
+      <recent name="$PROJECT_DIR$/xdclass-product-service" />
+      <recent name="$PROJECT_DIR$/xdclass-order-service" />
+      <recent name="$PROJECT_DIR$/xdclass-gateway" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="net.xdclass" />
       <recent name="net.xdclass.biz" />
       <recent name="net.xdclass.config" />
       <recent name="net.xdclass.request" />
       <recent name="net.xdclass.vo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/xdclass-user-service" />
-      <recent name="$PROJECT_DIR$/xdclass-product-service" />
-      <recent name="$PROJECT_DIR$/xdclass-order-service" />
-      <recent name="$PROJECT_DIR$/xdclass-gateway" />
-      <recent name="$PROJECT_DIR$/xdclass-coupon-service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -475,6 +473,8 @@
       <workItem from="1673679489789" duration="20000" />
       <workItem from="1673679518282" duration="474000" />
       <workItem from="1673691766570" duration="1422000" />
+      <workItem from="1673757140354" duration="3691000" />
+      <workItem from="1673869498333" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1673679608624</created>
@@ -701,6 +701,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.7.1/sentinel-core-1.7.1.jar!/com/alibaba/csp/sentinel/slots/block/degrade/DegradeException.class">
