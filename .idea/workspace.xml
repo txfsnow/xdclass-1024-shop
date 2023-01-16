@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2f54b4-6d8c-42aa-9f5c-2461cba5353e" name="Default" comment="添加Sentinel数据持久化配置">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/Mevan/maven课程笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStudy/Mevan/maven课程笔记.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaStudy/Mevan/maven课程笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudy/Mevan/maven课程笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +149,9 @@
     <option name="height" value="1057" />
   </component>
   <component name="ProjectId" id="2JfwlU6Lz0114Te7LdEwwMUKoYe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -474,7 +474,7 @@
       <workItem from="1673679518282" duration="474000" />
       <workItem from="1673691766570" duration="1422000" />
       <workItem from="1673757140354" duration="3691000" />
-      <workItem from="1673869498333" duration="1075000" />
+      <workItem from="1673869498333" duration="2991000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1673679608624</created>

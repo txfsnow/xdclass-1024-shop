@@ -7,7 +7,6 @@
 
 ------
 
-## 第二章 0基础快速入门maven
 
 ### 第1集 如何配置maven环境变量
 
@@ -184,9 +183,9 @@
 - 依赖配置信息
 
   1. dependencies
-
+[settings.xml](..%2F..%2F..%2F..%2FJAVAPlus%2Fapache-maven-3.8.7%2Fconf%2Fsettings.xml)
      ```xml
-     <dependencies>
+     <dependencies>[settings.xml](..%2F..%2F..%2F..%2FJAVAPlus%2Fapache-maven-3.8.7%2Fconf%2Fsettings.xml)
          <dependency>
                  <groupId>junit</groupId>
                  <artifactId>junit</artifactId>
@@ -246,7 +245,7 @@
        - 在父模块中定义后，子模块不会直接使用对应依赖，但是在使用相同依赖的时候可以不加版本号，这样的好处是，可以避免在每个使用的子项目中都声明一个版本号，这样想升级或者切换到另一个版本时，只需要在父类容器里更新，不需要任何一个子项目的修改
 
        ```xml
-       父项目：
+       -父项目：
        <dependencyManagement>
            <dependencies>
                <dependency>
@@ -258,19 +257,19 @@
            </dependencies>
        </dependencyManagement>
        
-       子项目1：
+       -子项目1：
        <dependency>
            <groupId>junit</groupId>
            <artifactId>junit</artifactId>
        </dependency>
        
-       子项目2：
+       -子项目2：
        <dependency>
            <groupId>junit</groupId>
            <artifactId>junit</artifactId>
        </dependency>
        
-       子项目3：
+       -子项目3：
        <dependency>
            <groupId>junit</groupId>
            <artifactId>junit</artifactId>
