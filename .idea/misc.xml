@@ -7,6 +7,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/xdclass-common/pom.xml" />
+        <option value="$PROJECT_DIR$/xdclass-coupon-service/pom.xml" />
+        <option value="$PROJECT_DIR$/xdclass-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/xdclass-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/xdclass-product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/xdclass-user-service/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
