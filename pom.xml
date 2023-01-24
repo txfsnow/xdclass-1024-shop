@@ -36,8 +36,6 @@
         <skipTests>true</skipTests>
     </properties>
 
-
-
     <!--锁定版本-->
     <dependencyManagement>
         <dependencies>
@@ -139,8 +137,6 @@
             </dependency>
 
 
-
-
             <!--分布式锁-->
             <dependency>
                 <groupId>org.redisson</groupId>
@@ -158,7 +154,7 @@
             <name>maven-public</name>
             <url>http://192.168.50.101:8081/repository/maven-public/</url>
             <snapshots>
-                <enabled>true</enabled>
+                <enabled>false</enabled>
             </snapshots>
             <releases>
                 <enabled>true</enabled>
@@ -169,7 +165,7 @@
         <snapshotRepository>
             <!-- id 要和maven/conf/settings.xml中配置的一致-->
             <id>nexusServer</id>
-            <url>http://192.168.50.101:8081/repository/maven-snapshots/</url>
+            <url>http://192.168.50.101:8081/repository/xdclass-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 

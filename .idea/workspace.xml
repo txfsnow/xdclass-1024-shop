@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1a2f54b4-6d8c-42aa-9f5c-2461cba5353e" name="Default" comment="添加Mave配置，和修改其他服务的IP地址">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,9 +123,19 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Java/apache-maven-3.8.6" />
         <option name="userSettingsFile" value="$PROJECT_DIR$/../../Java/apache-maven-3.8.6/conf/settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="xdclass" />
+      </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -259,7 +270,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.46666667",
-    "settings.editor.selected.configurable": "build.tools",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "spring.configuration.checksum": "c840afd004d0ffd5bf98a72208f14adb",
     "vue.rearranger.settings.migration": "true"
   },
@@ -283,6 +294,13 @@
       <recent name="net.xdclass.request" />
       <recent name="net.xdclass.vo" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration default="true" type="Application" factoryName="Application">
@@ -489,7 +507,9 @@
       <workItem from="1674483582452" duration="2087000" />
       <workItem from="1674486172930" duration="12288000" />
       <workItem from="1674545988296" duration="392000" />
-      <workItem from="1674546396623" duration="3346000" />
+      <workItem from="1674546396623" duration="4196000" />
+      <workItem from="1674550686408" duration="7305000" />
+      <workItem from="1674567257453" duration="4299000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1673679608624</created>
@@ -512,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674548605767</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加Mave配置，和修改其他服务的IP地址">
+      <created>1674549870242</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674549870242</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
