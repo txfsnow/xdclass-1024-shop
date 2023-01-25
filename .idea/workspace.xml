@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2f54b4-6d8c-42aa-9f5c-2461cba5353e" name="Default" comment="添加Mave配置，和修改其他服务的IP地址">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -33,19 +36,10 @@
       <find>script</find>
       <find>nacos</find>
       <find>lock:coupon</find>
-      <find>Cache</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="d78abbb0-eb73-46ff-aced-a09ce7301caa" />
-        <option name="url" value="https://github.com/txfsnow/xdclass-1024-shop.git" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -57,6 +51,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/xdclass-order-service/src/main/resources/mapper/ProductOrderItemMapper.xml" />
+        <option value="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/model/ProductOrderDO.java" />
         <option value="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/config/RabbitMQConfig.java" />
         <option value="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/model/OrderMessage.java" />
         <option value="$PROJECT_DIR$/xdclass-order-service/src/test/java/net/xdclass/biz/MQTest.java" />
@@ -89,6 +85,7 @@
         <option value="$PROJECT_DIR$/xdclass-product-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xdclass-user-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/exception/SentinelBlockHandler.java" />
+        <option value="$PROJECT_DIR$/xdclass-common/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/xdclass-coupon-service/pom.xml" />
         <option value="$PROJECT_DIR$/xdclass-gateway/pom.xml" />
@@ -96,18 +93,15 @@
         <option value="$PROJECT_DIR$/xdclass-product-service/pom.xml" />
         <option value="$PROJECT_DIR$/xdclass-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/docker/push.sh" />
+        <option value="$PROJECT_DIR$/xdclass-coupon-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/xdclass-gateway/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/xdclass-order-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/xdclass-product-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/xdclass-user-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/interceptor/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/xdclass-coupon-service/src/main/java/net/xdclass/mq/CouponMQListener.java" />
-        <option value="$PROJECT_DIR$/xdclass-coupon-service/src/main/java/net/xdclass/controller/CouponController.java" />
-        <option value="$PROJECT_DIR$/xdclass-common/pom.xml" />
-        <option value="$PROJECT_DIR$/xdclass-coupon-service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/xdclass-coupon-service/src/main/java/net/xdclass/CouponApplication.java" />
-        <option value="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/config/CustomRedisCacheManager.java" />
         <option value="$PROJECT_DIR$/xdclass-coupon-service/src/main/java/net/xdclass/service/impl/CouponServiceImpl.java" />
+        <option value="$PROJECT_DIR$/xdclass-coupon-service/src/main/java/net/xdclass/controller/CouponController.java" />
       </list>
     </option>
   </component>
@@ -123,19 +117,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../Java/apache-maven-3.8.6" />
         <option name="userSettingsFile" value="$PROJECT_DIR$/../../Java/apache-maven-3.8.6/conf/settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="jdkForImporter" value="11" />
-      </MavenImportingSettings>
-    </option>
-    <option name="enabledProfiles">
-      <list>
-        <option value="xdclass" />
-      </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -160,13 +143,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="110" />
-    <option name="y" value="23" />
-    <option name="width" value="1873" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
-  <component name="ProjectId" id="2JfwlU6Lz0114Te7LdEwwMUKoYe" />
+  <component name="ProjectId" id="2KoTmvBNKQ7zQ9BP1pFNIsO891g" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
   </component>
@@ -186,6 +167,51 @@
             <path>
               <item name="xdclass-1024-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="xdclass-1024-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-1024-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-1024-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-1024-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-1024-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-1024-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-1024-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-1024-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-1024-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-1024-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-1024-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-1024-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-1024-shop" type="462c0819:PsiDirectoryNode" />
               <item name="xdclass-coupon-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -217,16 +243,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xdclass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xdclass-1024-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xdclass-1024-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="xdclass-coupon-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xdclass" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xdclass-1024-shop" type="b2602c69:ProjectViewProjectNode" />
@@ -237,6 +253,47 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xdclass" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-1024-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-1024-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-coupon-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass" type="462c0819:PsiDirectoryNode" />
+              <item name="mq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-1024-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-1024-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-coupon-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-1024-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-1024-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-coupon-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-1024-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-1024-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-coupon-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,49 +307,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Notification.DisplayName-DoNotAsk-Language Plugins Notifications": "Recommended language plugin available",
-    "Notification.DoNotAsk-Language Plugins Notifications": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/BaiduNetdiskDownload/xdclass-1024-shop/JavaStudy/Mevan",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.46666667",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "c840afd004d0ffd5bf98a72208f14adb",
-    "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-    ]
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tangxuefei/Downloads/笔记-代码-书籍/代码/第47章/第2集/xdclass-1024-shop&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.46666667&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;baa37c75283d71b2abe34f0f420f08ff&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\BaiduNetdiskDownload\xdclass-1024-shop\JavaStudy\Mevan" />
-      <recent name="$PROJECT_DIR$/xdclass-user-service" />
-      <recent name="$PROJECT_DIR$/xdclass-product-service" />
-      <recent name="$PROJECT_DIR$/xdclass-order-service" />
-      <recent name="$PROJECT_DIR$/xdclass-gateway" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="net.xdclass" />
       <recent name="net.xdclass.biz" />
       <recent name="net.xdclass.config" />
       <recent name="net.xdclass.request" />
       <recent name="net.xdclass.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xdclass-user-service" />
+      <recent name="$PROJECT_DIR$/xdclass-product-service" />
+      <recent name="$PROJECT_DIR$/xdclass-order-service" />
+      <recent name="$PROJECT_DIR$/xdclass-gateway" />
+      <recent name="$PROJECT_DIR$/xdclass-coupon-service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -326,6 +370,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MQTest.testSendDelayMsg (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xdclass-order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.xdclass.biz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.xdclass.biz" />
+      <option name="MAIN_CLASS_NAME" value="net.xdclass.biz.MQTest" />
+      <option name="METHOD_NAME" value="testSendDelayMsg" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQTest.testSendProductStockMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xdclass-product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.xdclass.biz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.xdclass.biz" />
+      <option name="MAIN_CLASS_NAME" value="net.xdclass.biz.MQTest" />
+      <option name="METHOD_NAME" value="testSendProductStockMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -333,58 +411,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="xdclass-gateway [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="clean" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/xdclass-gateway" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="xdclass-gateway [site]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="site" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/xdclass-gateway" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
     <configuration name="CouponApplication-9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
       <module name="xdclass-coupon-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.xdclass.CouponApplication" />
       <option name="VM_PARAMETERS" value="-Dserver.port=9002" />
@@ -419,7 +446,6 @@
       </method>
     </configuration>
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
       <module name="xdclass-product-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="net.xdclass.ProductApplication" />
       <method v="2">
@@ -444,9 +470,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.MQTest.testSendProductStockMessage" />
+      <item itemvalue="JUnit.MQTest.testSendDelayMsg (1)" />
       <item itemvalue="JUnit.MQTest.testOrderClose" />
-      <item itemvalue="Maven.xdclass-gateway [clean]" />
-      <item itemvalue="Maven.xdclass-gateway [site]" />
       <item itemvalue="Spring Boot.CouponApplication-9002" />
       <item itemvalue="Spring Boot.ProductApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
@@ -455,11 +481,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Maven.xdclass-gateway [site]" />
-        <item itemvalue="Maven.xdclass-gateway [clean]" />
+        <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="JUnit.MQTest.testOrderClose" />
+        <item itemvalue="JUnit.MQTest.testSendDelayMsg (1)" />
+        <item itemvalue="JUnit.MQTest.testSendProductStockMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -490,56 +516,10 @@
       <workItem from="1615259550815" duration="4821000" />
       <workItem from="1615513005038" duration="611000" />
       <workItem from="1615521162190" duration="2259000" />
-      <workItem from="1672482597768" duration="11342000" />
-      <workItem from="1672549918554" duration="2722000" />
-      <workItem from="1673524168921" duration="599000" />
-      <workItem from="1673668468978" duration="5666000" />
-      <workItem from="1673675534664" duration="3743000" />
-      <workItem from="1673679312568" duration="168000" />
-      <workItem from="1673679489789" duration="20000" />
-      <workItem from="1673679518282" duration="474000" />
-      <workItem from="1673691766570" duration="1422000" />
-      <workItem from="1673757140354" duration="3691000" />
-      <workItem from="1673869498333" duration="4687000" />
-      <workItem from="1674287357868" duration="5607000" />
-      <workItem from="1674480127554" duration="1288000" />
-      <workItem from="1674481890414" duration="1664000" />
-      <workItem from="1674483582452" duration="2087000" />
-      <workItem from="1674486172930" duration="12288000" />
-      <workItem from="1674545988296" duration="392000" />
-      <workItem from="1674546396623" duration="4196000" />
-      <workItem from="1674550686408" duration="7305000" />
-      <workItem from="1674567257453" duration="4299000" />
+      <workItem from="1674640099588" duration="7033000" />
+      <workItem from="1674660695310" duration="590000" />
+      <workItem from="1674661290123" duration="654000" />
     </task>
-    <task id="LOCAL-00001" summary="项目初始化">
-      <created>1673679608624</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1673679608624</updated>
-    </task>
-    <task id="LOCAL-00002" summary="M">
-      <created>1673872891531</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1673872891531</updated>
-    </task>
-    <task id="LOCAL-00003" summary="添加Mave配置，和修改其他服务的IP地址">
-      <created>1674548605767</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1674548605767</updated>
-    </task>
-    <task id="LOCAL-00004" summary="添加Mave配置，和修改其他服务的IP地址">
-      <created>1674549870242</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1674549870242</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -575,10 +555,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215450000" />
+    <option name="totallyTimeSpent" value="212416000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="110" y="23" width="1873" height="1057" extended-state="1" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.501606" side_tool="true" weight="0.28658536" />
@@ -597,12 +577,12 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49892932" weight="0.52642274" />
+      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49892932" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35365853" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498394" visible="true" weight="0.28753993" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21746293" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498394" weight="0.4461382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21199143" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.20630081" />
@@ -695,16 +675,6 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-    <MESSAGE value="项目初始化" />
-    <MESSAGE value="添加Sentinel数据持久化配置" />
-    <MESSAGE value="M" />
-    <MESSAGE value="添加Mave配置，和修改其他服务的IP地址" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加Mave配置，和修改其他服务的IP地址" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -760,11 +730,91 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/constant/TimeConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/constant/CacheKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-coupon-service/src/main/java/net/xdclass/controller/CouponRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/request/ConfirmOrderRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/controller/ProductOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/service/impl/ProductOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="133" column="40" lean-forward="true" selection-start-line="133" selection-start-column="40" selection-end-line="133" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-gateway/src/main/java/net/xdclass/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.5.RELEASE/spring-cloud-gateway-core-2.2.5.RELEASE-sources.jar!/org/springframework/cloud/gateway/discovery/DiscoveryLocatorProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/config/MybatisPlusPageConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-937">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-product-service/src/main/java/net/xdclass/mq/ProductStockMQListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-product-service/src/main/java/net/xdclass/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="177" column="7" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.7.1/sentinel-core-1.7.1.jar!/com/alibaba/csp/sentinel/slots/block/degrade/DegradeException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -811,6 +861,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
         </state>
       </provider>
     </entry>
@@ -903,6 +960,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-coupon-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -938,6 +1002,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/config/CustomRedisCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-coupon-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.3.RELEASE/spring-data-redis-2.3.3.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -948,7 +1036,7 @@
     <entry file="file://$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
@@ -972,159 +1060,21 @@
     <entry file="file://$PROJECT_DIR$/xdclass-coupon-service/src/main/java/net/xdclass/service/impl/CouponRecordServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
-          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/cache/Cache.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/cache/CacheManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#336#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="183" column="46" selection-start-line="183" selection-start-column="46" selection-end-line="183" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-coupon-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.3.RELEASE/spring-data-redis-2.3.3.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="91" column="42" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
-          <folding>
-            <element signature="e#3595#3596#0" expanded="true" />
-            <element signature="e#3633#3634#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-coupon-service/src/main/java/net/xdclass/CouponApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/config/CustomRedisCacheManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/cache/annotation/CachePut.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#925#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/3.0.0/springfox-core-3.0.0.jar!/springfox/documentation/annotations/Cacheable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#552#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/3.0.0/springfox-core-3.0.0-sources.jar!/springfox/documentation/annotations/Cacheable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/cache/annotation/Cacheable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#961#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/cache/annotation/CachePut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/cache/annotation/Cacheable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="138" column="20" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-coupon-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-coupon-service/src/main/java/net/xdclass/config/RabbitMQConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-coupon-service/src/main/java/net/xdclass/controller/CouponRecordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-coupon-service/src/main/java/net/xdclass/controller/CouponController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="73" column="47" lean-forward="true" selection-start-line="73" selection-start-column="47" selection-end-line="73" selection-end-column="47" />
+          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xdclass-coupon-service/src/main/java/net/xdclass/service/impl/CouponServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="148" column="45" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="45" />
+        <state relative-caret-position="100">
+          <caret line="174" column="25" selection-start-line="174" selection-start-column="25" selection-end-line="174" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-coupon-service/src/main/java/net/xdclass/controller/CouponController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>

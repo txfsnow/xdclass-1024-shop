@@ -154,7 +154,7 @@
             <name>maven-public</name>
             <url>http://192.168.50.101:8081/repository/maven-public/</url>
             <snapshots>
-                <enabled>false</enabled>
+                <enabled>true</enabled>
             </snapshots>
             <releases>
                 <enabled>true</enabled>
