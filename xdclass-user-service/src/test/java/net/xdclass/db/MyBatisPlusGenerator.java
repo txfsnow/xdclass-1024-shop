@@ -29,7 +29,7 @@ public class MyBatisPlusGenerator {
                 .setAuthor("二当家小D")
                 // 生成路径，最好使用绝对路径，window路径是不一样的
                 //TODO  TODO  TODO  TODO
-                .setOutputDir("/Users/xdclass/Desktop/demo/src/main/java")
+                .setOutputDir("/Users/tangxuefei/Desktop/demo/src/main/java")
                 // 文件覆盖
                 .setFileOverride(true)
                 // 主键策略
@@ -57,9 +57,9 @@ public class MyBatisPlusGenerator {
         dsConfig.setDbType(DbType.MYSQL)
                 .setDriverName("com.mysql.cj.jdbc.Driver")
                 //TODO  TODO  TODO  TODO
-                .setUrl("jdbc:mysql://127.0.0.1:3306/xdclass_user?useSSL=false")
+                .setUrl("jdbc:mysql://192.168.50.101:3306/xdclass_user?useSSL=false")
                 .setUsername("root")
-                .setPassword("xdclass.net");
+                .setPassword("qwe123");
 
         //3. 策略配置globalConfiguration中
         StrategyConfig stConfig = new StrategyConfig();
