@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2f54b4-6d8c-42aa-9f5c-2461cba5353e" name="Default" comment="添加Mave配置">
+      <change afterPath="$PROJECT_DIR$/JavaStudy/MybatisPlus+SwaggerUI3.X+Lombok/两天玩转后端提效神器.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-user-service/src/test/java/net/xdclass/db/MyBatisPlusGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-user-service/src/test/java/net/xdclass/db/MyBatisPlusGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -513,7 +513,7 @@
       <workItem from="1615521162190" duration="2259000" />
       <workItem from="1674640099588" duration="7033000" />
       <workItem from="1674660695310" duration="590000" />
-      <workItem from="1674661290123" duration="5808000" />
+      <workItem from="1674661290123" duration="13312000" />
     </task>
     <task id="LOCAL-00001" summary="添加Mave配置">
       <created>1674662071466</created>
@@ -522,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674662071466</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加Mave配置">
+      <created>1674669665601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674669665601</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
