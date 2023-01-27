@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import springfox.documentation.oas.annotations.EnableOpenApi;
 
 /**
  * 小滴课堂,愿景：让技术不再难学
@@ -15,6 +16,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @Remark 有问题直接联系我，源码-笔记-技术交流群
  * @Version 1.0
  **/
+@EnableOpenApi
 @SpringBootApplication
 @MapperScan("net.xdclass.mapper")
 @EnableFeignClients
