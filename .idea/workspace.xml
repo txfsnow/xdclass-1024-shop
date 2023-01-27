@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2f54b4-6d8c-42aa-9f5c-2461cba5353e" name="Default" comment="添加Mave配置">
-      <change afterPath="$PROJECT_DIR$/JavaStudy/MybatisPlus+SwaggerUI3.X+Lombok/两天玩转后端提效神器.pdf" afterDir="false" />
+    <list default="true" id="1a2f54b4-6d8c-42aa-9f5c-2461cba5353e" name="Default" comment="添加mybatis学习资料">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/config/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-user-service/src/main/java/net/xdclass/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-user-service/src/main/java/net/xdclass/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-user-service/src/main/java/net/xdclass/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-user-service/src/main/java/net/xdclass/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-user-service/src/main/java/net/xdclass/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-user-service/src/main/java/net/xdclass/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-user-service/src/main/java/net/xdclass/service/NotifyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-user-service/src/main/java/net/xdclass/service/NotifyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-user-service/src/main/java/net/xdclass/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-user-service/src/main/java/net/xdclass/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-user-service/src/main/java/net/xdclass/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-user-service/src/main/java/net/xdclass/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +148,9 @@
   </component>
   <component name="PhpServers">
     <servers />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
@@ -304,37 +316,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/tangxuefei/Downloads/笔记-代码-书籍/代码/第47章/第2集/xdclass-1024-shop",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.46666667",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "baa37c75283d71b2abe34f0f420f08ff"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tangxuefei/Downloads/笔记-代码-书籍/代码/第47章/第2集/xdclass-1024-shop&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.46666667&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;baa37c75283d71b2abe34f0f420f08ff&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="net.xdclass" />
-      <recent name="net.xdclass.biz" />
-      <recent name="net.xdclass.config" />
-      <recent name="net.xdclass.request" />
-      <recent name="net.xdclass.vo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/xdclass-user-service" />
       <recent name="$PROJECT_DIR$/xdclass-product-service" />
       <recent name="$PROJECT_DIR$/xdclass-order-service" />
       <recent name="$PROJECT_DIR$/xdclass-gateway" />
       <recent name="$PROJECT_DIR$/xdclass-coupon-service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.xdclass" />
+      <recent name="net.xdclass.biz" />
+      <recent name="net.xdclass.config" />
+      <recent name="net.xdclass.request" />
+      <recent name="net.xdclass.vo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -344,7 +356,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyBatisPlusGenerator">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="MyBatisPlusGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.xdclass.db.MyBatisPlusGenerator" />
       <module name="xdclass-user-service" />
@@ -476,7 +488,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyBatisPlusGenerator" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="JUnit.MQTest.testOrderClose" />
@@ -514,6 +525,9 @@
       <workItem from="1674640099588" duration="7033000" />
       <workItem from="1674660695310" duration="590000" />
       <workItem from="1674661290123" duration="13312000" />
+      <workItem from="1674838304960" duration="431000" />
+      <workItem from="1674838742918" duration="1317000" />
+      <workItem from="1674840068592" duration="2218000" />
     </task>
     <task id="LOCAL-00001" summary="添加Mave配置">
       <created>1674662071466</created>
@@ -529,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674669665601</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加mybatis学习资料">
+      <created>1674819314941</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674819314941</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -687,7 +708,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加Mave配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加Mave配置" />
+    <MESSAGE value="添加mybatis学习资料" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加mybatis学习资料" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -703,7 +725,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/xdclass-user-service/src/main/java/net/xdclass/service/impl/UserServiceImpl.java</url>
-          <line>209</line>
+          <line>204</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -748,6 +770,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/constant/TimeConstant.java">

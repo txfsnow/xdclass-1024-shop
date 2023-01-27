@@ -16,7 +16,7 @@ import springfox.documentation.oas.annotations.EnableOpenApi;
  * @Remark 有问题直接联系我，源码-笔记-技术交流群
  * @Version 1.0
  **/
-@EnableOpenApi
+
 @SpringBootApplication
 @MapperScan("net.xdclass.mapper")
 @EnableFeignClients

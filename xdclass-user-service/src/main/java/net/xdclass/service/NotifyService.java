@@ -3,6 +3,9 @@ package net.xdclass.service;
 import net.xdclass.enums.SendCodeEnum;
 import net.xdclass.util.JsonData;
 
+/**
+ * @author tangxuefei
+ */
 public interface NotifyService {
 
     /**

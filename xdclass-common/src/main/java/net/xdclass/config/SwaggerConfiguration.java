@@ -110,14 +110,6 @@ public class SwaggerConfiguration {
                 .required(false)
                 .build());
 
-//        parameters.add(new RequestParameterBuilder()
-//                .name("token2")
-//                .description("登录令牌")
-//                .in(ParameterType.HEADER)
-//                .query(q -> q.model(m -> m.scalarModel(ScalarType.STRING)))
-//                .required(false)
-//                .build());
-
         return parameters;
 
     }
@@ -137,7 +129,4 @@ public class SwaggerConfiguration {
 
         return list;
     }
-
-
-
 }

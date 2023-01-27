@@ -5,6 +5,9 @@ import net.xdclass.request.UserRegisterRequest;
 import net.xdclass.util.JsonData;
 import net.xdclass.vo.UserVO;
 
+/**
+ * @author tangxuefei
+ */
 public interface UserService {
 
     /**

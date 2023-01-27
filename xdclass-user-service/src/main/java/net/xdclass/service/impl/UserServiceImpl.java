@@ -31,11 +31,11 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * 小滴课堂,愿景：让技术不再难学
+ *
  *
  * @Description
- * @Author 二当家小D
- * @Remark 有问题直接联系我，源码-笔记-技术交流群
+ * @Author
+ * @Remark
  * @Version 1.0
  **/
 
@@ -72,7 +72,6 @@ public class UserServiceImpl implements UserService {
      */
     @Override
     @Transactional(rollbackFor=Exception.class,propagation=Propagation.REQUIRED)
-    //@GlobalTransactional
     public JsonData register(UserRegisterRequest registerRequest) {
 
         boolean checkCode = false;
@@ -106,10 +105,6 @@ public class UserServiceImpl implements UserService {
 
             //新用户注册成功，初始化信息，发放福利等 TODO
             userRegisterInitTask(userDO);
-
-
-            //模拟异常
-            //int b = 1/0;
 
             return JsonData.buildSuccess();
         } else {
